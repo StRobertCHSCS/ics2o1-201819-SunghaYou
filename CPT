@@ -1,0 +1,312 @@
+print("                                              ICS2O Quiz 2019                              ")
+print("                         Welcome to the Basic Introduction to Computer Science test! ")
+print("                              Good luck! Your score will be counted at the end. ")
+name = input("                                   Enter your name to start: ")
+print("")
+print("")
+
+wrong_count = 0
+
+print("Question 1: How many bits are in ONE byte?")
+a = print("a. 10")
+b = print("b. 100")
+c = print("c. 8")
+d = print("d. 1")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "c":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "c":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 2: What is the biggest unit to measure storage?")
+a = print("a. Bit")
+b = print("b. Kilobyte")
+c = print("c. Exabyte")
+d = print("d. Yottabyte")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 3: Which of the following is a hardware component?")
+a = print("a. Graphics Card")
+b = print("b. Moniter")
+c = print("c. Keyboard")
+d = print("d. Mouse")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "a":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "a":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 4: Which of the following is a peripheral component?")
+a = print("a. CPU")
+b = print("b. Graphics Card")
+c = print("c. Mouse")
+d = print("d. Internal Storage")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "c":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "c":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 5: Which type of malware reproduces itself on a software that it's attached to?")
+a = print("a. Adware")
+b = print("b. Virus")
+c = print("c. Worm")
+d = print("d. Spyware")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "b":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "b":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 6: Which type of malware is the least dangerous?")
+a = print("a. Virus")
+b = print("b. Rootkit")
+c = print("c. Backdoor")
+d = print("d. Adware")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 7: How do you prevent spyware?")
+a = print("a. Install Adblock")
+b = print("b. Secure the network, use WPA")
+c = print("c. Restart the computer")
+d = print("d. Install an anti-virus software")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "b":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "b":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 8: What is a firewall?")
+a = print("a. A hardware device or software program that protects your network from malicious users")
+b = print("b. A system of computer networks connected to one another")
+c = print("c. A device that forwards data from one network to another.")
+d = print("d. A building in Asia")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "a":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "a":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 9: How many bytes are in ONE kilobyte?")
+a = print("a. 1000")
+b = print("b. 24")
+c = print("c. 100")
+d = print("d. 1024")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 10: How much amount of data can a BIT old?")
+a = print("a. 100")
+b = print("b. 2")
+c = print("c. 79")
+d = print("d. 0 or 1")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 11: What is the symbol for a BYTE?")
+a = print("a. BT")
+b = print("b. BY")
+c = print("c. b")
+d = print("d. B")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 12: How is the maximum resolution expressed?")
+a = print("a. pixel by pixel")
+b = print("b. width by height")
+c = print("c. width by length")
+d = print("d. length by height")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "c":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "c":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 13: What does a modem do?")
+a = print("a. Converts data into a format suitable for a transmission medium")
+b = print("b. Gives you access to the Internet")
+c = print("c. Allows people to access and share information.")
+d = print("d. Forwards data from one network to another.")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "a":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "a":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 14: What is NOT a disadvantage of using computers?")
+a = print("a. Addiction")
+b = print("b. Communication")
+c = print("c. Eye issues")
+d = print("d. Social issues")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "b":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "b":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+
+print("Question 15: How can you protect the environment?")
+a = print("a. Keep the lights on when not in use")
+b = print("b. Driving close distances")
+c = print("c. Throwing away your old device")
+d = print("d. Unplug your device when done charging")
+print("")
+
+answer = input("Your answer: ")
+
+while answer != "a" and answer != "b" and answer != "c" and answer != "d":
+    answer = input("Please enter a correct option: ")
+if answer != "d":
+    wrong_count += 1
+    print("Incorrect :( Next Question.")
+elif answer == "d":
+    print("Correct! Next Question.")
+
+print("You have " + str(wrong_count) + " wrong answer(s).")
+print("")
+print("")
+
+print("                         Congratulations " + str(name) + "! This is the end of the quiz. Hope you learned something new!")
+print("                                           You completed with " + str(wrong_count) + " wrong answer(s).")
